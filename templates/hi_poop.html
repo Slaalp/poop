@@ -1,0 +1,30 @@
+<head>
+    <title>{{ title }}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}">
+
+<body>
+    <div class="App">
+        <header class="App-header">
+            <h1>Hi poop! you found poop!</h1>
+            <h3>youve found your brethren🤗</h3>
+            <a href="https://youtube.com/watch?v=dQw4w9WgXcQ">Visit our other secret page!</a>
+            <img src="{{ url_for('static', filename='poop_loop.gif') }}" class="App-logo" alt="logo" />
+            <p>
+                Poop Loop
+            </p>
+
+            <img src="{{ url_for('static', filename='anotherpoop.gif') }}" class="App-logo" alt="logo" />
+            <p>
+                Dancing Poop
+            </p>
+
+            <img src="{{ url_for('static', filename='poop-bouncing.gif') }}" class="App-logo" alt="logo" />
+            <p>
+                Bounce Poop
+            </p>
+
+        </header>
+    </div>
+</body>
+
+</html>
